@@ -1,4 +1,4 @@
 import { io } from 'socket.io-client';
 
-const socket = io(process.env.REACT_APP_SOCKET_URL, { autoConnect: true });
+const socket = io("https://nagarbot-backend-3.onrender.com/api", { autoConnect: true });
 export default socket;
